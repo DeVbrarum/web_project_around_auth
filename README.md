@@ -8,7 +8,7 @@
 
 ### Visita la página >>
 
-https://DeVbrarum.github.io/around-react_es
+https://DeVbrarum.github.io/web_project_around_auth
 
 ---
 
