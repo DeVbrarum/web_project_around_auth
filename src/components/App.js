@@ -156,7 +156,7 @@ function App() {
   }
 
   return (
-    <Router basename="/around-react_es">
+    <Router basename="/web_project_around_auth">
       <CurrentUserContext.Provider value={currentUser}>
         <div className="page">
           <Header isAuthenticated={isAuthenticated} onLogout={handleLogout} />
