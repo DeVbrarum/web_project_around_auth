@@ -1,0 +1,124 @@
+.login {
+    width: 358px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    margin: 60px auto 0px;
+    padding: 0;
+}
+
+.login__title {
+    margin: 0px auto 50px;
+    padding: 0;
+    width: 358px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.login__input {
+    padding: 0;
+    margin: 20px auto 0px;
+    border: 0;
+    width: 358px;
+    height: 27.26px;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid #bcbcc4;
+    background-color: transparent;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #CCCCCC;
+}
+
+.login__submit {
+    width: 358px;
+    height: 50px;
+    margin-top: 216px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+    cursor: pointer;
+}
+
+.login__submit:hover {
+    opacity: 0.8;
+}
+
+.login__link {
+    width: 358px;
+    margin: 15px auto 50px;
+    padding: 0;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.login__link:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 984px) {
+    .login {
+        width: 260px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .login__title {
+        width: 260px;
+    }
+
+    .login__input {
+        width: 260px;
+    }
+
+    .login__submit {
+        width: 260px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .login__link {
+        width: 260px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+}
+
+
+

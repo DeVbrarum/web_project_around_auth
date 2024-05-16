@@ -1,0 +1,158 @@
+.header {
+  padding: 0;
+  margin-bottom: 42px;
+  height: auto;
+  border-bottom: 1px solid #545454;
+}
+
+.header__logo {
+  width: 173px;
+  margin-top: 27px;
+  margin-bottom: 32px;
+}
+
+.header__menu-icon {
+  cursor: pointer;
+}
+
+.header__menu {
+  display: block;
+}
+
+.header__dropdown {
+  margin: 40px auto 0;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  min-width: 100vw;
+  border-bottom: 1px solid #545454;
+}
+
+.header__menu-large,
+.header__menu-small {
+  display: none;
+}
+
+.header__top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 429px;
+}
+
+.header__email {
+  margin-right: 23px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header__logout {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #A9A9A9;
+}
+
+.header__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+@media (max-width: 950px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 42px;
+    height: auto;
+    border-bottom: 1px solid #545454;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin-top: 27px;
+    margin-bottom: 32px;
+  }
+
+  .header__top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 110px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu_actived {
+    display: block;
+  }
+
+  .header__menu-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header__email {
+    width: 320px;
+    margin: 0;
+  }
+
+  .header__logout {
+    width: 320px;
+  }
+
+  .header__link {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 951px) {
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .header__menu-icon,
+  .header__dropdown {
+    display: none;
+  }
+
+  .header__menu-large {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

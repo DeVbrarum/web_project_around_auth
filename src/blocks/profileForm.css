@@ -1,0 +1,49 @@
+.profileForm {
+  display: block;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.profileForm_open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.profileForm__popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0;
+  max-width: 430px;
+  height: 330px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  cursor: default;
+}
+
+.profileForm__background {
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profileForm__background:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 984px) {
+  .profileForm__popup {
+    width: 282px;
+    min-width: 282px;
+    min-height: 322px;
+  }
+}
